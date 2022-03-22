@@ -27,7 +27,7 @@ def print_dataframe(dataframe, print_column=True, print_rows=True):
 
 
 if __name__ == '__main__':
-    csv_file = 'Demographic_Statistics_By_Zip_Code.csv'  # path to the downloaded csv file
+    csv_file = r"D:\22\UNSW-22-Term-1\Comp9321\Demographic_Statistics_By_Zip_Code.csv"  # path to the downloaded csv file
     dataframe = read_csv(csv_file)
 
     print("Loading the csv file")
